@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+#animal-photo
+{
+    background-color: lightcoral;
+    border-radius: 40px;
+     width: 60vw;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 40px;
+}
+
+#photo-heading
+{
+    text-align: center;
+    
+}
+.smart
+{ 
+    
+    display: grid;
+    grid-template-areas: 
+    "camel cheetah elephant"
+    "gorilla koala lion"
+    "polar_bear tiger wolf";
+}
+.images
+{
+    margin: 10px;
+    border-radius: 30px;
+}
+
